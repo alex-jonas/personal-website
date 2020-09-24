@@ -3,12 +3,62 @@
 } 
 
 body { 
-    background-color:  darkgrey;
+    display:grid;
+    background-color: #7997b0;
     margin:0;
     padding:30px;
     font-family: 'Baloo Tammudu 2', cursive;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+.navlinks {
+    font-size:1.8em;
+}
+
+.line {
+    border-bottom:2px solid rgba(0, 0,0, 0.4);
+    height:0;
+}
+
+section {
+    background-color: rgba(0, 0,0, 0.15);
+    padding:20px;
+    margin:20px;
+}
+
+.welcome p {
+    font-size: 1.5em;
+}
+
+.skills ul {
+    margin:0;
+    padding:0;
+    display:inline-block;
+}
+.skills li {
+    display:inline-block;
+    padding: 4px 10px;
+    margin: 0 4px 16px;
+    margin-left:0;
+    background-color:rgba(0, 0,0, 0.4);
+    color: white;
+    font-size:1.4em;
+    line-height: 1.5;
+}
+
+.bio {
+    text-align:left;
+}
+
+table tr {
+    border-bottom: 3px solid black;
 }
 
 .foto {
     width:400px;
+    clip-path: circle();
 }
