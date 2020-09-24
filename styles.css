@@ -1,3 +1,10 @@
+* { 
+    box-sizing: border-box;
+} 
+
 body { 
     background-color:  darkgrey;
+    margin:0;
+    padding:30px;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
