@@ -60,6 +60,7 @@ section {
     margin:20px;
     border-radius:10px;
     border: 2px solid  rgba(0, 0,0, 0.15);
+    box-shadow: 6px 6px 12px -5px rgba(0,0,0,0.44);
 }
 
 section:hover {
@@ -88,6 +89,17 @@ section:hover {
     line-height: 1;
 }
 
+.contact ul {
+    display:flex;
+    flex-wrap: wrap;
+    padding:0px;
+    justify-content: center;
+}
+
+.contact li {
+    display:block;
+    margin-right:10px;
+}
 .bio {
     text-align:left;
 }
