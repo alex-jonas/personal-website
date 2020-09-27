@@ -170,6 +170,21 @@ section:hover {
   opacity: 1;
 }
 
+.cv ul {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  text-align: left;
+  list-style: none;
+  max-width: 320px;
+  margin: auto auto;
+  padding: 0;
+  grid-gap: 8px;
+}
+
+.cv ul .y {
+  font-weight: bold;
+}
+
 .cv table {
   text-align: left;
   margin: auto auto;
