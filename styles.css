@@ -23,7 +23,8 @@ a {
   color: #8f0301;
 }
 .intro,
-.welcome {
+.welcome,
+.devlinks {
   display: flex;
   flex-direction: column;
 }
@@ -40,6 +41,10 @@ a {
   }
   .welcome p {
     margin-left: 10px;
+  }
+  .devlinks {
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
 
@@ -130,6 +135,16 @@ section:hover {
   display: block;
   margin-right: 10px;
 }
+
+.devlinks img {
+  width: 150px;
+  opacity: 0.6;
+}
+
+.devlinks img:hover {
+  opacity: 1;
+}
+
 .bio {
   text-align: left;
 }
